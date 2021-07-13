@@ -8,9 +8,14 @@ import Modal from "./Modal";
 class Details extends Component {
   state = { loading: true, showModal: false };
 
-  async componentDidMount() {
+  onRequestClose = () => {
+    this.toggleModal;
+  };
+  componentDidMount = async () => {
     const res = await fetch(
       `http://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
+      // get id from App.js : line 22
+      // < Route path = "/details/:id" >
     );
     const json = await res.json();
     this.setState(
@@ -30,8 +35,9 @@ class Details extends Component {
     //   state: json.pets[0].state
     //   description: json.pets[0].description
     // });
-  }
+  };
   toggleModal = () => this.setState({ showModal: !this.state.showModal });
+
   adopt = () => (window.open("http://bit.ly/pet-adopt"), "_blank");
   render() {
     if (this.state.loading) {
@@ -48,6 +54,7 @@ class Details extends Component {
           <h2>
             {animal} - {breed} - {city}, {state}
           </h2>
+          {/* <ThemeContext.Consumer /> only works in Class Component */}
           <ThemeContext.Consumer>
             {([theme]) => (
               <button
