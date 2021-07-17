@@ -29,7 +29,7 @@ class Details extends Component {
     // this.setState({
     //   loading: false,
     //   breed: json.pets[0].breed,
-    //   name: json.pets[0].name,
+    //   name: json.pets[0].name, 
     //   animal: json.pets[0].animal,
     //   city: json.pets[0].city,
     //   state: json.pets[0].state
