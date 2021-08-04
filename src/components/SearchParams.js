@@ -3,7 +3,7 @@ import ThemeContext from "./ThemeContext";
 import useBreedList from "./useBreedList";
 import Results from "./Results";
 
-const ANIMALS = ["bird", "cat", "dog", "rabbit", "reptile"];
+const ANIMALS = Object.freeze(["bird", "cat", "dog", "rabbit", "reptile"]);
 
 const SearchParams = () => {
   const [location, setLocation] = useState("");
