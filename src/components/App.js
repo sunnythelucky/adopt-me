@@ -21,6 +21,8 @@ const App = () => {
           <Switch>
             <Route path="/details/:id">
               <Details />
+              {/* ThemeContext.Consumer  
+              because it's a class component.  */}
             </Route>
             <Route path="/">
               <SearchParams />

@@ -56,14 +56,22 @@ class Details extends Component {
           </h2>
           {/* <ThemeContext.Consumer /> only works in Class Component */}
           <ThemeContext.Consumer>
-            {([theme]) => (
+            {(
+              // [theme]
+              themehook
+            ) => (
               <button
                 onClick={this.toggleModal}
-                style={{ backgroundColor: theme }}
+                style={{
+                  backgroundColor:
+                    // theme
+                    themehook[0],
+                }}
               >
                 Adopt {name}
               </button>
             )}
+            {/* {(themehook) => {themehook[0]}} */}
           </ThemeContext.Consumer>
           <p>{description}</p>
           {showModal ? (
@@ -82,6 +90,9 @@ class Details extends Component {
     );
   }
 }
+
+// without ErrorBoundary
+// export default withRouter(Details);
 
 const DetailsWithRouter = withRouter(Details);
 
