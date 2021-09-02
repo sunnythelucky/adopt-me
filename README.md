@@ -15,8 +15,6 @@ Also choose the color of the `theme`.
 
 `Search Bar`,`Filters` : Try to keep it as reusable as possible.
 
-`Tailwilnd CSS` : Use CSS framework to build user interfaces.
-
 ## Screenshot
 ![Screenshot 2021-09-02 at 13 24 45](https://user-images.githubusercontent.com/40551978/131889287-54a633ab-42ab-4441-a266-fee621d6ad55.png)
 ![Screenshot 2021-09-02 at 13 24 52](https://user-images.githubusercontent.com/40551978/131889294-eebd6f48-d5f9-45b1-9f3a-3e8dcb4218a9.png)
