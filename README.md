@@ -1,7 +1,15 @@
 # adopt-me
-simple React exercise
+simple React exercise from the bootcamp at frontend masters 
 
-`Carousel`
-`Modal`
-`Search Bar`
-`Filters`
+## Instruction
+Looking for the pet you want to adopt. You can choose the options `animal`,`breed`,`city`.
+
+Also choose the color of the `theme`.
+
+## Programming language
+`React` : `Functional` AND `Class` `Components`- `Carousel`,`Modal`, `Search Bar`,`Filters`.
+`Tailwilnd CSS` : Use CSS framework to build user interfaces.
+
+
+## Screenshot
+
