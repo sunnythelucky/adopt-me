@@ -7,7 +7,8 @@ Looking for the pet you want to adopt. You can choose the options `animal`,`bree
 Also choose the color of the `theme`.
 
 ## Programming language
-`React` : `Functional` AND `Class` `Components`- `Carousel`,`Modal`, `Search Bar`,`Filters`.
+`React.js` : `Functional` AND `Class` `Components`- `Carousel`,`Modal`, `Search Bar`,`Filters`.
+
 `Tailwilnd CSS` : Use CSS framework to build user interfaces.
 
 
