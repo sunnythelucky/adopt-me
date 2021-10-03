@@ -4,12 +4,12 @@ A Responsive app using React from the bootcamp at Frontend Masters
 ## Instruction
 Looking for the pet you want to adopt. You can choose the options `Animal`, `Breed`, `Location`.
 
-Also choose the color of the `theme`.
+Also choose the color of the `theme`. 
 
 ## Programming language
 `React.js` : Implemented both `Functional Component` AND `Class Components` to build an app.
 
-`Carousel` : fetching data and build a list
+`Carousel` : fetching data and build a list using map function
 
 `Modal`: Use `useContext` and `useRef`
 
