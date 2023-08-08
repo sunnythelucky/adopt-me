@@ -1,5 +1,5 @@
 # adopt-me
-A Responsive app using React from the bootcamp at Frontend Masters
+A Responsive app using React from the bootcamp course at Frontend Masters
 
 ## Instruction
 Looking for the pet you want to adopt. You can choose the options `Animal`, `Breed`, `Location`.
